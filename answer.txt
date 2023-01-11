@@ -1,4 +1,4 @@
-SSH, also known as Secure Shell or Secure Socket Shell
+Q1.SSH, also known as Secure Shell or Secure Socket Shell
 
 To use SSH in Github:
 
@@ -7,7 +7,7 @@ To use SSH in Github:
 3.we now open id_rsa.pub (in notepad) present in our C:\Users\PRIYAM\.ssh
 4.We now paste the data in our github account in the place of new SSH
 
-To initialise and push repo:
+Q2.To initialise and push repo:
 1.We create a new repository in out github account
 2.Now we copy the remote add origin link
 3.In VSCode we now write the following commands:
@@ -18,3 +18,5 @@ To initialise and push repo:
   c.git push
   d. git push --set-upstream origin master
 Now we can see that the file is saved on the repository that we created.
+
+Q4.A static website is one with stable content, where every user sees the exact same thing on each individual page. On the other hand, a dynamic website is one where content is pulled on-the-fly, allowing its content to change with the user.
