@@ -1,0 +1,20 @@
+SSH, also known as Secure Shell or Secure Socket Shell
+
+To use SSH in Github:
+
+1.open command prompt
+2.we type ssh-keygen command and hit enter
+3.we now open id_rsa.pub (in notepad) present in our C:\Users\PRIYAM\.ssh
+4.We now paste the data in our github account in the place of new SSH
+
+To initialise and push repo:
+1.We create a new repository in out github account
+2.Now we copy the remote add origin link
+3.In VSCode we now write the following commands:
+  a.git init
+  b.git add
+  c.git commit
+  d.git remote add origin + the link we copied
+  c.git push
+  d. git push --set-upstream origin master
+Now we can see that the file is saved on the repository that we created.
